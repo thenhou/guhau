@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+	width: 100%;height: 60px; background-color: #FFffff;
+}
+.menu ul{
+	margin: 0;padding: 0;list-style: none;display: flex
+}
+.menu{
+	padding-top: 18px
+}
+.menu ul li a{
+	padding: 10px 20px;text-decoration: none; color: #363636;font-size: 17px; font-weight: 800; text-transform: uppercase; border-radius: 20px
+}
+.menu ul li a:hover{
+	background-color: darkred ; color: white
+}
+/*phan slider*/
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:70px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color:#F1DD57
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:darkred;
+      text-decoration: none; }
+aside{
+	width: 100%; min-height: 500px
+}
+main{
+	width: 100%;min-height: 500px
+}
+.text-do{
+	color: darkred
+}
+aside ul{
+	margin: 0;padding: 0;list-style: none; display: flex; flex-direction: column
+}
+aside ul li a{
+	padding: 10px; display: block;text-decoration: none;color: #666666
+}
+aside ul li {
+	border-bottom: 1px solid #666666
+}
+aside ul li a:hover{
+	background-color: darkred;color: white
+}
+.text-den{
+	color: #4B4B4B
+}
+footer{
+	width: 100%;min-height: 200px;background-color: #BFBFBF
+}
+footer a{
+	text-decoration: none;color: #666666;
+}
+footer a:hover{
+	color: darkred
+}
+.bg-blue{
+min-height: 200px;background-color: #3588f9;text-align: center
+}
+footer ul{
+	margin: 0;padding: 0;list-style: none;display: flex;flex-direction: column
+}
+foot ul li a{
+	display: block;padding: 10px;color: white
+}
+.text-nho{
+	font-size: 10px
+}
+.br-black{
+	background-color: black
+}
+.text-trang{
+	color: white
+}
